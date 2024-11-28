@@ -936,8 +936,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\base64.c</PathWithFileName>
-      <FilenameWithoutPath>base64.c</FilenameWithoutPath>
+      <PathWithFileName>.\code-deen.c</PathWithFileName>
+      <FilenameWithoutPath>code-deen.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -948,8 +948,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\base64.h</PathWithFileName>
-      <FilenameWithoutPath>base64.h</FilenameWithoutPath>
+      <PathWithFileName>.\code-deen.h</PathWithFileName>
+      <FilenameWithoutPath>code-deen.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>

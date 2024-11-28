@@ -685,14 +685,14 @@
               <FilePath>.\ov7670.h</FilePath>
             </File>
             <File>
-              <FileName>base64.c</FileName>
+              <FileName>code-deen.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\base64.c</FilePath>
+              <FilePath>.\code-deen.c</FilePath>
             </File>
             <File>
-              <FileName>base64.h</FileName>
+              <FileName>code-deen.h</FileName>
               <FileType>5</FileType>
-              <FilePath>.\base64.h</FilePath>
+              <FilePath>.\code-deen.h</FilePath>
             </File>
           </Files>
         </Group>
