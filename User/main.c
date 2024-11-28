@@ -79,5 +79,7 @@ int main(void) {
         receive_command();
 
         HAL_Delay(10000); // 每隔10秒上传一次图片
+
+        //
     }
 }
