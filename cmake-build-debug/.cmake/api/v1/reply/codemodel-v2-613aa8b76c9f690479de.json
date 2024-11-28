@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.30"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "stm32ControlCode__",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "b64::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-b64-Debug-7e9c873807e7ae0c810f.json",
+					"name" : "b64",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "stm32ControlCode__::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-stm32ControlCode__-Debug-15e286eed520a35aa023.json",
+					"name" : "stm32ControlCode__",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "stm32f1xx_hal::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-stm32f1xx_hal-Debug-90ac4ce4c8749a7e2990.json",
+					"name" : "stm32f1xx_hal",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/Adrerie/.MyBoot/stm32Control/cmake-build-debug",
+		"source" : "D:/Adrerie/.MyBoot/stm32Control"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

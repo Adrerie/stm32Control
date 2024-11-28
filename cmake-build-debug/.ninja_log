@@ -1,0 +1,5 @@
+# ninja log v6
+3	122	7544263854525474	CMakeFiles/b64.dir/libb64/src/cencode.c.obj	739e8761dcda678e
+13	150	7544263854631562	CMakeFiles/b64.dir/libb64/src/cdecode.c.obj	7ff9a05800cc2a8d
+71	217	7544269130061133	CMakeFiles/stm32ControlCode__.dir/code-deen.c.obj	f861dcac1696da08
+24	191	7544269129598215	libb64.a	d4fed9efa903d471

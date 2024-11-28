@@ -1,0 +1,47 @@
+#ifndef OV7670_H
+#define OV7670_H
+
+#include "Start//stm32f10x.h"
+
+// OV7670引脚定义
+#define OV7670_SIOC_PIN GPIO_PIN_6
+#define OV7670_SIOC_PORT GPIOB
+#define OV7670_SIOD_PIN GPIO_PIN_7
+#define OV7670_SIOD_PORT GPIOB
+#define OV7670_VSYNC_PIN GPIO_PIN_0
+#define OV7670_VSYNC_PORT GPIOA
+#define OV7670_HREF_PIN GPIO_PIN_1
+#define OV7670_HREF_PORT GPIOA
+#define OV7670_RCK_PIN GPIO_PIN_8
+#define OV7670_RCK_PORT GPIOA
+#define OV7670_STR_PIN GPIO_PIN_9
+#define OV7670_STR_PORT GPIOA
+#define OV7670_WR_PIN GPIO_PIN_10
+#define OV7670_WR_PORT GPIOA
+#define OV7670_WRST_PIN GPIO_PIN_11
+#define OV7670_WRST_PORT GPIOA
+#define OV7670_RRST_PIN GPIO_PIN_12
+#define OV7670_RRST_PORT GPIOA
+/*
+假设你使用STM32F103C8T6的以下引脚连接OV7670：
+    GND -> GND
+    3.3V -> 3.3V
+    SIOC -> PB6 (I2C SCL)
+    SIOD -> PB7 (I2C SDA)
+    VSY -> PA0
+    HREF -> PA1
+    D0-D7 -> PC0-PC7
+    PWDN -> GND
+    RST -> 3.3V
+    RCK -> PA8
+    STR -> PA9
+    OE -> GND
+    WR -> PA10
+    WRST -> PA11
+    RRST -> PA12
+*/
+
+void OV7670_Init(void);
+void OV7670_CaptureImage(uint8_t *image_buffer);
+
+#endif // OV7670_H
